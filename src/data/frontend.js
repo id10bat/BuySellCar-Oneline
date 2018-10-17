@@ -3,7 +3,7 @@ export var Data = [
     {
         "id": "A",
         "value": 0,
-        "page": "/",
+        "page": "/BuySellCar-Online/",
         "name": "กลุ่ม 8 การซื้อขายรถ Online",
         "item": [],
         "status": false
@@ -11,7 +11,7 @@ export var Data = [
     {
         "id": "B",
         "value": 1,
-        "page": "/Authorities",
+        "page": "/BuySellCar-Online/Authorities",
         "name": "คณะผู้จัดทำ",
         "item": [],
         "status": false,
@@ -20,32 +20,32 @@ export var Data = [
     {
         "id": "C",
         "value": 2,
-        "page": "/ProblemDetermination",
+        "page": "/BuySellCar-Online/ProblemDetermination",
         "name": "การกำหนดปัญหาและการศึกษาความเป็นไปได้",
         "item": [
             {
                 "id": "C1",
-                "page": "/SystemRequest",
+                "page": "/BuySellCar-Online/SystemRequest",
                 "name": "System Request"
             },
             {
                 "id": "C2",
-                "page": "/Fishbone",
+                "page": "/BuySellCar-Online/Fishbone",
                 "name": "แผนภูมิก้างปลา"
             },
             {
                 "id": "C3",
-                "page": "/SystemScopeDocument",
+                "page": "/BuySellCar-Online/SystemScopeDocument",
                 "name": "System Scope Document"
             },
             {
                 "id": "C4",
-                "page": "/ProjectSchedule",
+                "page": "/BuySellCar-Online/ProjectSchedule",
                 "name": "Project Schedule"
             },
             {
                 "id": "C5",
-                "page": "/FeasibilityStudy",
+                "page": "/BuySellCar-Online/FeasibilityStudy",
                 "name": "Feasibility Study"
             }
         ],
@@ -54,17 +54,17 @@ export var Data = [
     {
         "id": "D",
         "value": 3,
-        "page": "/DemandAnalysis",
+        "page": "/BuySellCar-Online/DemandAnalysis",
         "name": "การวิเคราะห์ความต้องการ",
         "item": [
             {
                 "id": "D1",
-                "page": "/SystemRequirementSpecification",
+                "page": "/BuySellCar-Online/SystemRequirementSpecification",
                 "name": "System Requirement Specification"
             },
             {
                 "id": "D2",
-                "page": "/Fact-FindingTechnics",
+                "page": "/BuySellCar-Online/Fact-FindingTechnics",
                 "name": "วิธีการ Fact-Finding Technics"
             }
         ],
@@ -73,27 +73,27 @@ export var Data = [
     {
         "id": "E",
         "value": 4,
-        "page": "/ProcessModeling",
+        "page": "/BuySellCar-Online/ProcessModeling",
         "name": "แบบจำลองกระบวนการ",
         "item": [
             {
                 "id": "E1",
-                "page": "/ContextDiagram",
+                "page": "/BuySellCar-Online/ContextDiagram",
                 "name": "Context Diagram"
             },
             {
                 "id": "E2",
-                "page": "/DFDDiagram",
+                "page": "/BuySellCar-Online/DFDDiagram",
                 "name": "DFD Diagram"
             },
             {
                 "id": "E3",
-                "page": "/ProcessDescription",
+                "page": "/BuySellCar-Online/ProcessDescription",
                 "name": "Process Description"
             },
             {
                 "id": "E4",
-                "page": "/ProcessingDescription",
+                "page": "/BuySellCar-Online/ProcessingDescription",
                 "name": "Processing Description"
             }
         ],
@@ -102,27 +102,27 @@ export var Data = [
     {
         "id": "F",
         "value": 5,
-        "page": "/DataModel",
+        "page": "/BuySellCar-Online/DataModel",
         "name": "Data Model",
         "item": [
             {
                 "id": "F1",
-                "page": "/ERDiagram",
+                "page": "/BuySellCar-Online/ERDiagram",
                 "name": "ER Diagram"
             },
             {
                 "id": "F2",
-                "page": "/RelationSchema",
+                "page": "/BuySellCar-Online/RelationSchema",
                 "name": "Relation Schema"
             },
             {
                 "id": "F3",
-                "page": "/DataDictionary",
+                "page": "/BuySellCar-Online/DataDictionary",
                 "name": "Data Dictionary"
             },
             {
                 "id": "F4",
-                "page": "/Normalized",
+                "page": "/BuySellCar-Online/Normalized",
                 "name": "Normalized"
             }
         ],
@@ -131,7 +131,7 @@ export var Data = [
     {
         "id": "G",
         "value": 6,
-        "page": "/OutputDesign",
+        "page": "/BuySellCar-Online/OutputDesign",
         "name": "การออกแบบรายงาน",
         "item": [],
         "status": false
@@ -139,7 +139,7 @@ export var Data = [
     {
         "id": "H",
         "value": 7,
-        "page": "/InputDesign",
+        "page": "/BuySellCar-Online/InputDesign",
         "name": "ประกอบด้วยหน้าที่ป้อนข้อมูล",
         "item": [],
         "status": false
