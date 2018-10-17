@@ -46,12 +46,11 @@ class ProcessModeling extends React.Component {
         return (
             <div>
                 {datas.map(data => (
-                    <Router>
                         <div key={data.id}>
                             {data.item.map(li => (
 
                                 <div key={li.id}>
-                                    < Link to={li.page} onClick={() => {document.location.reload()}}>
+                                    < Link to={li.page}>
                                         {data.value == 4
                                             ? <List component="div" disablePadding>
                                                 <ListItem button className={classes.nested}>
@@ -68,7 +67,6 @@ class ProcessModeling extends React.Component {
 
                             ))}
                         </div>
-                    </Router>
                 ))}
                 <Divider />
             </div>

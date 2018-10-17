@@ -46,29 +46,27 @@ class DataModel extends React.Component {
         return (
             <div>
                 {datas.map(data => (
-                    <Router>
-                        <div key={data.id}>
-                            {data.item.map(li => (
+                    <div key={data.id}>
+                        {data.item.map(li => (
 
-                                <div key={li.id}>
-                                    < Link to={li.page} onClick={() => {document.location.reload()}}>
-                                        {data.value == 5
-                                            ? <List component="div" disablePadding>
-                                                <ListItem button className={classes.nested}>
-                                                    <ListItemIcon>
-                                                        <SendIcon />
-                                                    </ListItemIcon>
-                                                    <ListItemText primary={li.name} />
-                                                </ListItem>
-                                            </List>
-                                            : null
-                                        }
-                                    </ Link>
-                                </div>
+                            <div key={li.id}>
+                                < Link to={li.page} >
+                                    {data.value == 5
+                                        ? <List component="div" disablePadding>
+                                            <ListItem button className={classes.nested}>
+                                                <ListItemIcon>
+                                                    <SendIcon />
+                                                </ListItemIcon>
+                                                <ListItemText primary={li.name} />
+                                            </ListItem>
+                                        </List>
+                                        : null
+                                    }
+                                </ Link>
+                            </div>
 
-                            ))}
-                        </div>
-                    </Router>
+                        ))}
+                    </div>
                 ))}
                 <Divider />
             </div>

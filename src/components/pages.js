@@ -12,49 +12,40 @@ import {
 
 
 
-class Pages extends React.Component {
-
-
-    render() {
-
-        return (
-            <Router>
+export const Pages = () => (
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/BuySellCar-Online/" component={Home} />
 
-                    <Route exact path="/Authorities" component={Authorities} />
+                    <Route path="/BuySellCar-Online/Authorities" component={Authorities} />
 
-                    <Route path="/ProblemDetermination" component={ProblemDetermination} />
-                    <Route path="/SystemRequest" component={SystemRequest} />
-                    <Route path="/Fishbone" component={Fishbone} />
-                    <Route path="/SystemScopeDocument" component={SystemScopeDocument} />
-                    <Route path="/ProjectSchedule" component={ProjectSchedule} />
-                    <Route path="/FeasibilityStudy" component={FeasibilityStudy} />
+                    <Route path="/BuySellCar-Online/ProblemDetermination" component={ProblemDetermination} />
+                    <Route path="/BuySellCar-Online/SystemRequest" component={SystemRequest} />
+                    <Route path="/BuySellCar-Online/Fishbone" component={Fishbone} />
+                    <Route path="/BuySellCar-Online/SystemScopeDocument" component={SystemScopeDocument} />
+                    <Route path="/BuySellCar-Online/ProjectSchedule" component={ProjectSchedule} />
+                    <Route path="/BuySellCar-Online/FeasibilityStudy" component={FeasibilityStudy} />
 
-                    <Route path="/DemandAnalysis" component={DemandAnalysis} />
-                    <Route path="/SystemRequirementSpecification" component={SystemRequirementSpecification} />
-                    <Route path="/Fact-FindingTechnics" component={Fact_FindingTechnics} />
+                    <Route path="/BuySellCar-Online/DemandAnalysis" component={DemandAnalysis} />
+                    <Route path="/BuySellCar-Online/SystemRequirementSpecification" component={SystemRequirementSpecification} />
+                    <Route path="/BuySellCar-Online/Fact-FindingTechnics" component={Fact_FindingTechnics} />
 
-                    <Route path="/ProcessModeling" component={ProcessModeling} />
-                    <Route path="/ContextDiagram" component={ContextDiagram} />
-                    <Route path="/DFDDiagram" component={DFDDiagram} />
-                    <Route path="/ProcessDescription" component={ProcessDescription} />
-                    <Route path="/ProcessingDescription" component={ProcessingDescription} />
+                    <Route path="/BuySellCar-Online/ProcessModeling" component={ProcessModeling} />
+                    <Route path="/BuySellCar-Online/ContextDiagram" component={ContextDiagram} />
+                    <Route path="/BuySellCar-Online/DFDDiagram" component={DFDDiagram} />
+                    <Route path="/BuySellCar-Online/ProcessDescription" component={ProcessDescription} />
+                    <Route path="/BuySellCar-Online/ProcessingDescription" component={ProcessingDescription} />
 
-                    <Route path="/DataModel" component={DataModel} />
-                    <Route path="/ERDiagram" component={ERDiagram} />
-                    <Route path="/DataDictionary" component={DataDictionary} />
-                    <Route path="/RelationSchema" component={RelationSchema} />
-                    <Route path="/Normalized" component={Normalized} />
+                    <Route path="/BuySellCar-Online/DataModel" component={DataModel} />
+                    <Route path="/BuySellCar-Online/ERDiagram" component={ERDiagram} />
+                    <Route path="/BuySellCar-Online/DataDictionary" component={DataDictionary} />
+                    <Route path="/BuySellCar-Online/RelationSchema" component={RelationSchema} />
+                    <Route path="/BuySellCar-Online/Normalized" component={Normalized} />
 
-                    <Route path="/OutputDesign" component={OutputDesign} />
+                    <Route path="/BuySellCar-Online/OutputDesign" component={OutputDesign} />
 
-                    <Route path="/InputDesign" component={InputDesign} />
+                    <Route path="/BuySellCar-Online/InputDesign" component={InputDesign} />
                 </Switch>
-            </Router>
 
         )
-    }
-}
 
-export default Pages;
+

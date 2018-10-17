@@ -1,3 +1,4 @@
+import React from 'react'
 import _Authorities from './Authorities';
 
 import _DataModel from './DataModel';
@@ -29,36 +30,36 @@ import _DFDDiagram from './ProcessModeling/DFD_Diagram';
 import _ProcessDescription from './ProcessModeling/Process_Description';
 import _ProcessingDescription from './ProcessModeling/Processing_Description';
 
-export const Authorities = _Authorities;
+export const Authorities = () => (<_Authorities />)
 
-export const DataModel = _DataModel;
-export const DataDictionary = _DataDictionary;
-export const ERDiagram = _ERDiagram;
-export const Normalized = _Normalized;
-export const RelationSchema = _RelationSchema;
+export const DataModel = () => (<_DataModel />)
+export const DataDictionary = () => (<_DataDictionary />)
+export const ERDiagram = () => (<_ERDiagram />)
+export const Normalized = () => (<_Normalized />)
+export const RelationSchema = () => (<_RelationSchema />)
 
-export const DemandAnalysis = _DemandAnalysis;
-export const Fact_FindingTechnics = _Fact_FindingTechnics;
-export const SystemRequirementSpecification = _SystemRequirementSpecification;
+export const DemandAnalysis = () => (<_DemandAnalysis />)
+export const Fact_FindingTechnics = () => (<_Fact_FindingTechnics />)
+export const SystemRequirementSpecification = () => (<_SystemRequirementSpecification />)
 
-export const Home = _Home;
+export const Home = () => (<_Home />)
 
-export const InputDesign = _InputDesign;
+export const InputDesign = () => (<_InputDesign />)
 
-export const OutputDesign = _OutputDesign;
+export const OutputDesign = () => (<_OutputDesign />)
 
-export const ProblemDetermination = _ProblemDetermination;
-export const FeasibilityStudy = _FeasibilityStudy;
-export const Fishbone = _Fishbone;
-export const ProjectSchedule = _ProjectSchedule;
-export const SystemRequest = _SystemRequest;
-export const SystemScopeDocument = _SystemScopeDocument;
+export const ProblemDetermination = () => (<_ProblemDetermination />)
+export const FeasibilityStudy = () => (<_FeasibilityStudy />)
+export const Fishbone = () => (<_Fishbone />)
+export const ProjectSchedule = () => (<_ProjectSchedule />)
+export const SystemRequest = () => (<_SystemRequest />)
+export const SystemScopeDocument = () => (<_SystemScopeDocument />)
 
-export const ProcessModeling = _ProcessModeling;
-export const ContextDiagram = _ContextDiagram;
-export const DFDDiagram = _DFDDiagram;
-export const ProcessDescription = _ProcessDescription;
-export const ProcessingDescription = _ProcessingDescription;
+export const ProcessModeling = () => (<_ProcessModeling />)
+export const ContextDiagram = () => (<_ContextDiagram />)
+export const DFDDiagram = () => (<_DFDDiagram />)
+export const ProcessDescription = () => (<_ProcessDescription />)
+export const ProcessingDescription = () => (<_ProcessingDescription />)
 
 
 

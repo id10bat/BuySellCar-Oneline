@@ -88,10 +88,9 @@ class Tabs extends React.Component {
         return (
             <div className={classes.root}>
                 {datas.map(data => (
-                    <Router>
                         <div key={data.id}>
                             <List component="nav" >
-                                <Link to={data.page} className={classes.line_like} onClick={() => {document.location.reload()}}>
+                                <Link to={data.page} className={classes.line_like} >
                                     <ListItem button onClick={() => this.handleClick(data.value)}>
                                         <ListItemText primary={data.name} />
                                         {data.status ? <div>
@@ -135,7 +134,7 @@ class Tabs extends React.Component {
                             </List>
                             {data.item.map(li => (
                                 <div key={li.id}>
-                                    < Link to={li.page} className={classes.line_like} onClick={() => {document.location.reload()}} >
+                                    < Link to={li.page} className={classes.line_like} >
                                         {data.value == 2
                                             ? <Collapse in={this.state.openProblemDetermination} timeout="auto" unmountOnExit>
                                                 <List component="div" disablePadding>
@@ -182,7 +181,6 @@ class Tabs extends React.Component {
 
                            
                         </div>
-                    </Router>
                 ))}
 
             </div>

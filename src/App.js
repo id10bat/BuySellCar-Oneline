@@ -10,7 +10,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import 'primer-markdown/build/build.css'
 
@@ -18,7 +18,7 @@ import 'primer-markdown/build/build.css'
 
 
 import Tabs from './components/taps'
-import Pages from './components/pages'
+import {Pages} from './components/pages'
 
 const drawerWidth = 240;
 
@@ -80,27 +80,29 @@ class App extends React.Component {
     }
 
     return (
-      <div className={classes.root}>
-        <div className={classes.appFrame}>
-          <AppBar
-            position="absolute"
-            className={classNames(classes.appBar, classes[`appBar-${anchor}`])}
-          >
-            <Toolbar>
-              <Typography variant="h6" color="inherit" noWrap>
-              กลุ่ม 8 การซื้อขายรถ Online
+      <Router>
+        <div className={classes.root}>
+          <div className={classes.appFrame}>
+            <AppBar
+              position="absolute"
+              className={classNames(classes.appBar, classes[`appBar-${anchor}`])}
+            >
+              <Toolbar>
+                <Typography variant="h6" color="inherit" noWrap>
+                  กลุ่ม 8 การซื้อขายรถ Online
               </Typography>
-            </Toolbar>
-          </AppBar>
-          {before}
-          <main className={classes.content}>
-            <div className={classes.toolbar} />
-            <Typography>
-              <Pages />
-            </Typography>
-          </main>
+              </Toolbar>
+            </AppBar>
+            {before}
+            <main className={classes.content}>
+              <div className={classes.toolbar} />
+              <Typography>
+                <Pages />
+              </Typography>
+            </main>
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
