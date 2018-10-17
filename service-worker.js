@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/BuySellCar-Oneline/precache-manifest.ee7d113dddda657a27944b19810a8634.js"
+  "/BuySellCar-Online/precache-manifest.a15bfce07de6b9ec19362cab07ef17aa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/BuySellCar-Oneline/index.html", {
+workbox.routing.registerNavigationRoute("/BuySellCar-Online/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
