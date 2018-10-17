@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/id10bat/BuySellCar-Oneline/issues"
   },
-  "homepage": "https://id10bat.github.io/BuySellCar-Oneline/",
+  "homepage": "https://id10bat.github.io/BuySellCar-Online/",
   "dependencies": {
     "@material-ui/core": "^3.2.1",
     "@material-ui/icons": "^3.0.1",
