@@ -1,7 +1,7 @@
 <br/>
 <br/>
 <center>
-<img src="static/media/logo.a8d7d077.png" alt="Eastern Asia University" width="200"/>
+<img src="https://github.com/id10bat/BuySellCar-Online/blob/master/src/img/logo.png?raw=true" alt="Eastern Asia University" width="200"/>
 <br/>
 <h3>ระบบซื้อขายรถ Online</h3>
 <br/>
