@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "deploy_branch": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -18,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/id10bat/BuySellCar-Oneline/issues"
   },
-  "homepage": "https://github.com/id10bat/BuySellCar-Online#readme",
+  "homepage": "https://id10bat.github.io/BuySellCar-Oneline/",
   "dependencies": {
     "@material-ui/core": "^3.2.1",
     "@material-ui/icons": "^3.0.1",
@@ -31,6 +34,7 @@
   },
   "devDependencies": {
     "classes": "^0.3.0",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react-scripts": "^2.0.4"
   },
