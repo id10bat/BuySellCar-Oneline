@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/id10bat/BuySellCar-Oneline.git"
+    "url": "git+https://github.com/id10bat/BuySellCar-Online.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/id10bat/BuySellCar-Oneline/issues"
+    "url": "https://github.com/id10bat/BuySellCar-Online/issues"
   },
   "homepage": "https://id10bat.github.io/BuySellCar-Online/",
   "dependencies": {
