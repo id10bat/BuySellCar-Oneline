@@ -1,0 +1,43 @@
+{
+  "name": "buysellcar-oneline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/id10bat/BuySellCar-Oneline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/id10bat/BuySellCar-Oneline/issues"
+  },
+  "homepage": "https://github.com/id10bat/BuySellCar-Oneline#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.2.1",
+    "@material-ui/icons": "^3.0.1",
+    "marked": "^0.5.1",
+    "primer-markdown": "^3.7.9",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-markdown": "^4.0.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "classes": "^0.3.0",
+    "prop-types": "^15.6.2",
+    "react-scripts": "^2.0.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
