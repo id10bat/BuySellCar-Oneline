@@ -4,4 +4,6 @@
 <br/>
 <br/>
 
-<img src="img/logo.png" alt="Eastern Asia University" width="100%"/>
+<center>
+<img src="/static/media/Relation_Schema.d3f4b6dd.PNG" alt="Eastern Asia University" width="800px"/>
+</center>

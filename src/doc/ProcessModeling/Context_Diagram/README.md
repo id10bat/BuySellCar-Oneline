@@ -3,5 +3,6 @@
 <br/>
 <br/>
 <br/>
-
-<img src="img/logo.png" alt="Eastern Asia University" width="100%"/>
+<center>
+<img src="/static/media/context_diagram.20592834.svg" alt="Context Diagram" width="800px"/>
+</center>

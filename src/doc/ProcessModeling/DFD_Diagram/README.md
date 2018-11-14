@@ -3,5 +3,10 @@
 <br/>
 <br/>
 <br/>
+<center>
+<img src="/static/media/DFD_Diagram.9f380bab.PNG" alt="DFD Diagram" width="800px"/>
+</center>
 
-<img src="img/logo.png" alt="Eastern Asia University" width="100%"/>
+<br>
+<br>
+<br>

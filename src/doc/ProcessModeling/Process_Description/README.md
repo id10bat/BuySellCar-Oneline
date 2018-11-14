@@ -4,4 +4,4 @@
 <br/>
 <br/>
 
-<img src="img/logo.png" alt="Eastern Asia University" width="100%"/>
+<img src="/static/media/Process_Description.5c8caf5d.svg" alt="Process Description" width="800px"/>

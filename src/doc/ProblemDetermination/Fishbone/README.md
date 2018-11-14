@@ -3,4 +3,6 @@
 <br/>
 <br/>
 
-<img src="img/logo.png" alt="Eastern Asia University" width="100%"/>
+<center>
+<img src="/static/media/Fishbone.c28f2984.PNG" alt="Fishbone" width="800px"/>
+</center>

@@ -13,12 +13,9 @@ import Divider from '@material-ui/core/Divider';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import 'primer-markdown/build/build.css'
-
-
-
-
+import CarImg from './img/car.PNG'
 import Tabs from './components/taps'
-import {Pages} from './components/pages'
+import { Pages } from './components/pages'
 
 const drawerWidth = 240;
 
@@ -44,7 +41,7 @@ const styles = theme => ({
   toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: '#fff',
     padding: theme.spacing.unit * 3,
   },
 });
@@ -52,8 +49,12 @@ const styles = theme => ({
 class App extends React.Component {
   state = {
     anchor: 'left',
+    img: null
   };
 
+  componentDidMount() {
+    this.setState({ img: CarImg })
+  }
 
 
   render() {
@@ -82,6 +83,9 @@ class App extends React.Component {
     return (
       <Router>
         <div className={classes.root}>
+          {/* <div style={{ height: '250px' }}>
+            <img src={this.state.img} width="100%" />
+          </div> */}
           <div className={classes.appFrame}>
             <AppBar
               position="absolute"
@@ -94,7 +98,7 @@ class App extends React.Component {
               </Toolbar>
             </AppBar>
             {before}
-            <main className={classes.content}>
+            <main style={{ overflowY: 'auto' }} className={classes.content}>
               <div className={classes.toolbar} />
               <Typography>
                 <Pages />

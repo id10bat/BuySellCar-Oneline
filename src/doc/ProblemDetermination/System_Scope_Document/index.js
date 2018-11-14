@@ -17,10 +17,10 @@ class SystemScopeDocument extends Component {
 
   render() {
     return (
-      <div className="markdown-body entry-content">
-        <ReactMarkdown 
-        source={this.state.md} 
-        escapeHtml={false} />
+      <div className="markdown-body entry-content" >
+        <ReactMarkdown
+          source={this.state.md}
+          escapeHtml={false} />
       </div>
     )
   }
