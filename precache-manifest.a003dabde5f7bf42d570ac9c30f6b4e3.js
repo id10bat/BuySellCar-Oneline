@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e62f9d7d20f7db5ac299647e4cc0398d",
-    "url": "/BuySellCar-Online/static/media/README.e62f9d7d.md"
+    "revision": "22323ed30a6c87254036251651f0e0c5",
+    "url": "/BuySellCar-Online/static/media/README.22323ed3.md"
   },
   {
-    "revision": "f293f8e949195ae519bf",
-    "url": "/BuySellCar-Online/static/js/main.f293f8e9.chunk.js"
+    "revision": "c02faab404da1510232d",
+    "url": "/BuySellCar-Online/static/js/main.c02faab4.chunk.js"
   },
   {
     "revision": "cdfa165c3408b0e0a467dcfbe5703b7d",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/non.fe4fa427.jpg"
   },
   {
-    "revision": "3f76a5f3baae3e7d3da867992ae80654",
-    "url": "/BuySellCar-Online/static/media/README.3f76a5f3.md"
+    "revision": "7c0b96271374cbe7b1a87ac95c82d00d",
+    "url": "/BuySellCar-Online/static/media/README.7c0b9627.md"
   },
   {
     "revision": "82a9bcc6ddfa5876c1e90d929d6cfc9c",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/Relation_Schema.d3f4b6dd.PNG"
   },
   {
-    "revision": "de611f46200baed5851f20a488cd497f",
-    "url": "/BuySellCar-Online/static/media/README.de611f46.md"
+    "revision": "fe87c2d5608136a2dba93d8374051139",
+    "url": "/BuySellCar-Online/static/media/README.fe87c2d5.md"
   },
   {
     "revision": "376a27864fcec8613ff7019d76ea3b3e",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/README.86e61579.md"
   },
   {
-    "revision": "e6d2b40a733a20b0c15d1a2322d32f7d",
-    "url": "/BuySellCar-Online/static/media/README.e6d2b40a.md"
+    "revision": "6045a51ca449a02b320d9241b3f67d02",
+    "url": "/BuySellCar-Online/static/media/README.6045a51c.md"
   },
   {
     "revision": "a8d7d0779e7d59ebb3f3898d723e368a",
@@ -84,16 +84,16 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/README.cca20a59.md"
   },
   {
-    "revision": "7139793e02061d9b174b5261f7174311",
-    "url": "/BuySellCar-Online/static/media/README.7139793e.md"
+    "revision": "af3763f6d48ce6c0cb645dbd4171ce38",
+    "url": "/BuySellCar-Online/static/media/README.af3763f6.md"
   },
   {
     "revision": "c28f29845a938a415d83ee625d4d0291",
     "url": "/BuySellCar-Online/static/media/Fishbone.c28f2984.PNG"
   },
   {
-    "revision": "00680f6f70b7aeedb1c96884d8da4bbf",
-    "url": "/BuySellCar-Online/static/media/README.00680f6f.md"
+    "revision": "fd6af950242ade0413c2a3765735ddcd",
+    "url": "/BuySellCar-Online/static/media/README.fd6af950.md"
   },
   {
     "revision": "497a656b1c4cb69351f71bc9508e067e",
@@ -108,24 +108,24 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/README.3bb352b4.md"
   },
   {
-    "revision": "7c7c88a8318604349e87ed7c659a1f85",
-    "url": "/BuySellCar-Online/static/media/README.7c7c88a8.md"
+    "revision": "fd75bff7dca561143709a1366241326c",
+    "url": "/BuySellCar-Online/static/media/README.fd75bff7.md"
   },
   {
     "revision": "2059283490879f14e6b693ad3b5e2914",
     "url": "/BuySellCar-Online/static/media/context_diagram.20592834.svg"
   },
   {
-    "revision": "9d2dc4486066a18b460ad2cde086cecc",
-    "url": "/BuySellCar-Online/static/media/README.9d2dc448.md"
+    "revision": "cc8d2380961f1a0ef496a8f3465e40c9",
+    "url": "/BuySellCar-Online/static/media/README.cc8d2380.md"
   },
   {
     "revision": "9f380bab3cdd852a14e4ed0efdd1a799",
     "url": "/BuySellCar-Online/static/media/DFD_Diagram.9f380bab.PNG"
   },
   {
-    "revision": "e1c424511918787aed302bd509f89796",
-    "url": "/BuySellCar-Online/static/media/README.e1c42451.md"
+    "revision": "7a10ea08ebf97be775131001ef9128c9",
+    "url": "/BuySellCar-Online/static/media/README.7a10ea08.md"
   },
   {
     "revision": "51b9fb10d5e1580fce0a",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/css/1.338e54cf.chunk.css"
   },
   {
-    "revision": "d1df26f9eed92dbdd12520a20e535379",
+    "revision": "6dc45791c7dbc030efa63662b3aae226",
     "url": "/BuySellCar-Online/index.html"
   }
 ];
