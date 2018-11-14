@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BuySellCar-Online/precache-manifest.4ff320f37c14e68bf208461ca215e931.js"
+  "/BuySellCar-Online/precache-manifest.566f85a8679f94e3c293fe80064317f8.js"
 );
 
 workbox.clientsClaim();

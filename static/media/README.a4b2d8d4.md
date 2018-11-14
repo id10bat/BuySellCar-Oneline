@@ -1,5 +1,0 @@
-## System Request
-
-<br>
-
->รายละเอียด

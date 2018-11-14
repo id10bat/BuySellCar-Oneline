@@ -1,5 +1,0 @@
-## Feasibility Study
-
-<br>
-
->รายละเอียด
