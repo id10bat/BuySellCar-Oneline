@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BuySellCar-Online/precache-manifest.19b6ae40430cb679f7b885a5a1c70bcb.js"
+  "/BuySellCar-Online/precache-manifest.ab0756f87d9749600e563296a8308445.js"
 );
 
 workbox.clientsClaim();
