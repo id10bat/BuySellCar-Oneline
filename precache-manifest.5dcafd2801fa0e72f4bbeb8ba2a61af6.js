@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/README.22323ed3.md"
   },
   {
-    "revision": "c794c184ae321d1100df",
-    "url": "/BuySellCar-Online/static/js/main.c794c184.chunk.js"
+    "revision": "0b64a79ca09d742b0be8",
+    "url": "/BuySellCar-Online/static/js/main.0b64a79c.chunk.js"
   },
   {
     "revision": "cdfa165c3408b0e0a467dcfbe5703b7d",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/media/Relation_Schema.d3f4b6dd.PNG"
   },
   {
-    "revision": "b7dc8dc97998bdcfef5185b4da940877",
-    "url": "/BuySellCar-Online/static/media/README.b7dc8dc9.md"
+    "revision": "35d099991df5c33b9e5edf786b5805c7",
+    "url": "/BuySellCar-Online/static/media/README.35d09999.md"
   },
   {
     "revision": "376a27864fcec8613ff7019d76ea3b3e",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/BuySellCar-Online/static/css/1.338e54cf.chunk.css"
   },
   {
-    "revision": "d17cf5b1e5cc306eda142626bb12d15c",
+    "revision": "ba3a6305354fd93bd58057f6e438ae23",
     "url": "/BuySellCar-Online/index.html"
   }
 ];
